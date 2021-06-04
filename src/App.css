@@ -83,21 +83,23 @@ h3 {
 }
 
 .singleProject {
-  width: 350px;
-  height: 400px;
-  border: 1px solid gray;
+  width: 400px;
+  height: 450px;
+  border: 1px solid rgba(128, 128, 128, 0.61);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Rationale', sans-serif;
+  color: gray;
 }
 
 .projectImg {
-  height: 150px;
-  width: 300px;
-  margin-top: 20px;;
+  height: 200px;
+  width: 350px;
+  margin-top: 20px;
+  margin: 10px;
 }
 
 .projectsList {
@@ -124,6 +126,11 @@ h3 {
   text-align: center;
   margin: 5px;
   margin-top: 15px;
+}
+
+.projectIconImg:hover{
+  cursor: pointer;
+  border: solid aliceblue 2px;
 }
 
 @media only screen and (max-width: 880px) {

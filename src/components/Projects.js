@@ -7,10 +7,10 @@ const Projects = (props) => {
                 <p className ="projectDescription">{props.description}</p>
                 <div className="iconProject">
                     <a href={props.heroku} target="_blank" rel="noreferrer">
-                    <img className="projectIconImg" src="https://icongr.am/entypo/browser.svg?color=4d4d4d" alt="linkedin icon" />
+                    <img className="projectIconImg" src="https://icongr.am/entypo/browser.svg?color=7a7a7a" alt="website icon" />
                     </a>
                     <a href={props.github} target="_blank" rel="noreferrer">
-                    <img src="https://icongr.am/devicon/github-original.svg" alt="github icon" />
+                    <img className="projectIconImg" src="https://icongr.am/fontawesome/github.svg?size=35&color=7a7a7a" alt="github icon" />
                     </a>
                 </div>
 
