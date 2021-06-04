@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+
+.headerSection {
+  background: url("https://i.imgur.com/8XTmRlC.jpg");
+  height: 630px;
+  width: 100%;
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Rationale', sans-serif;
+  font-size: 90px;
+  color: rgb(161, 161, 161);
+  margin-top: 150px;
+}
+
+h3 {
+  font-family: 'Rationale', sans-serif;
+  font-size: 40px;
+  color: rgb(161, 161, 161);
+  margin-top: -30px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  height: 40px;
+  width: 40px;
+}
+
+.skillSection {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(197, 241, 249, 0.384)
+}
+
+.languageIcons {
+  display:flex;
+}
+
+.icons {
+  margin: 8px;
+}
+
+.projectSection {
+  
+}
