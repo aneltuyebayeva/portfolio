@@ -1,4 +1,4 @@
-
+import resume from '../assets/AT_resume.pdf'
 const Header = () => {
     return (
         <div>
@@ -14,7 +14,7 @@ const Header = () => {
                     <a href="https://www.linkedin.com/in/anel-tuyebayeva-4914521ba/" target="_blank" rel="noreferrer">
                     <img className="img" src="https://icongr.am/fontawesome/linkedin-square.svg?size=128&color=7a7a7a" alt="linkedin icon" />
                     </a>
-                    <a href="" target="_blank" rel="noreferrer">
+                    <a href={resume} target="_blank" rel="noreferrer">
                     <img className="img" src="https://icongr.am/fontawesome/file-pdf-o.svg?size=128&color=7a7a7a" alt="resume icon" />
                     </a> 
                 </div>
