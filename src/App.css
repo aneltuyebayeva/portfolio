@@ -39,6 +39,12 @@ h3 {
   height: 40px;
   width: 40px;
   margin: 5px;
+  border-radius: 5px;
+}
+
+.img:hover{
+  cursor: pointer;
+  border: solid aliceblue 2px;
 }
 
 .skillSection {
@@ -137,7 +143,7 @@ h3 {
 
   .headerSection {
     background: url("https://i.imgur.com/8XTmRlC.jpg");
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-size: cover;
   }
@@ -152,7 +158,7 @@ h3 {
 
   .icons {
     margin: 3px;
-    
+
   }
 }
 
